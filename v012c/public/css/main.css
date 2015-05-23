@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Muli:300,400italic);
+
+body {
+overflow:hidden;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+a {
+text-decoration:none;
+color:#000;
+}
+
+#all-the-text {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+display:none;
+}
+
+#language {
+ padding-left: 1em;
+}
+
+#content {
+width: 7000px;
+cursor:default;
+padding-right: 0.5em;
+}
+
+#landing-page {
+width: 50em;
+height: auto;
+padding: 5em 0 0 5em;
+}
+
+
+#landing-page p {
+	font-family: 'Muli', sans-serif;
+}
+
+#landing-page h3 {
+	font-family: 'Muli', sans-serif;
+}
+
+#loader {
+display: none;
+padding-top: 1em;
+}
+
+#loaded {
+display:none;
+}
+
+#title {
+	margin-top: 0;
+	font-size: 98px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+}
+
+.landing-text {
+	display: none;
+}
+
+p {
+text-align: justify; 
+}
+
+.txt-msg, .txt-msg-white, .txt-msg-white:hover {
+transition:background-color 1s, opacity 0.3s, filter 0.3s;
+-webkit-transition:background-color 1s, opacity 0.3s, filter 0.3s;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition-timing-function: ease-in-out;
+}
+
+.txt-msg {
+height: 1em;
+padding: 0 0 0 0;
+margin: 0.5em 0.3em 0.5em 0;
+opacity:0.9; 
+filter:alpha(opacity=90);
+}
+
+.sender_1 {
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.sender_2  {
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+}
+
+.txt-msg-white {
+opacity:0.5; 
+filter:alpha(opacity=50);
+background-color: #fff !important;
+}
+
+/*.txt-msg-white:hover {
+opacity:0.9; 
+filter:alpha(opacity=90);
+}*/
